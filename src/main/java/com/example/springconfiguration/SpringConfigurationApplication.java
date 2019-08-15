@@ -13,7 +13,7 @@ public class SpringConfigurationApplication {
     public static void main(String[] args) {
        ApplicationContext ctx= SpringApplication.run(SpringConfigurationApplication.class, args);
         Country object=(Country)ctx.getBean("country");
-        System.out.println();System.out.println();System.out.println();System.out.println();System.out.println();
+        System.out.println();System.out.println();System.out.println();System.out.println();System.out.println();System.out.println();System.out.println();
 
         System.out.println("Country Name "+object.getName());
         System.out.println("Population "+object.getPopulation());
